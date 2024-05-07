@@ -1,0 +1,19 @@
+Exception Message: SecLib::CrmCheckPrivilege failed. Returned hr = -2147220839 on UserId: c55e33a1-42c2-ee11-9079-000d3a4dcfcd and Privilege: prvReadDeploymentStage
+
+ErrorCode: -2147220839
+HexErrorCode: 0x80040299
+
+ErrorDetails: 
+	ApiExceptionSourceKey: Plugin/Microsoft.Crm.ObjectModel.CustomBusinessEntityService
+	ApiStepKey: 23f62662-05c5-ee11-9079-000d3a4dcfcd
+	ApiDepthKey: 1
+	ApiActivityIdKey: 6a228692-7494-49a6-a9f1-4f07ff7dd2ff
+	ApiPluginSolutionNameKey: System
+	ApiStepSolutionNameKey: System
+	ApiExceptionCategory: ClientError
+	ApiExceptionMessageName: TargetPrincipalLacksReadPrivilege
+	ApiExceptionHttpStatusCode: 403
+
+HelpLink: http://go.microsoft.com/fwlink/?LinkID=398563&error=Microsoft.Crm.CrmException%3a80040299&client=platform
+
+Activity Id: 7f9a12a2-a02d-4ad8-b01b-91799b429318
